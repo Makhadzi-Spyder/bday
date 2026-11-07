@@ -360,3 +360,18 @@ button {
         font-size: 14px;
     }
 }
+
+/* Making the selected world stand out */
+.world-card {
+    opacity: 0.65;
+}
+
+.world-card.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+/* Adding a glow to the selected world */
+.world-card.active {
+    box-shadow: 0 10px 35px rgba(218, 55, 110, 0.35);
+}
