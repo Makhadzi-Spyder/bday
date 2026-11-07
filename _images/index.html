@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Universe For You</title>
+
+    <!-- Connecting the CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main>
+
+        <!-- The birthday card welcome section -->
+        <section id="welcome">
+
+            <div class="birthday-card" id="birthdayCard">
+
+                <!-- Front cover of the card -->
+                <div class="card-front">
+                    <span class="card-decoration">♡</span>
+
+                    <h1>To Someone Very Special</h1>
+
+                    <p>A little something, just for you.</p>
+
+                    <span class="open-instruction">Tap to open ♡</span>
+                </div>
+
+                <!-- Inside of the birthday card -->
+                <div class="card-inside">
+                    <h2>Happy Birthday!</h2>
+
+                    <p>
+                        I've made you a little universe filled
+                        with stories, laughter, memories and
+                        a few surprises.
+                    </p>
+
+                    <p>
+                        Every little corner of it was made
+                        with you in mind.
+                    </p>
+
+                    <button id="beginButton" type="button">
+                        Begin Your Journey ♡
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- The four worlds selection section -->
+        <section id="universe" class="hidden">
+
+            <h2>Welcome to Your Universe</h2>
+
+            <p class="universe-intro">
+                Four little worlds, each with something
+                special waiting for you.
+            </p>
+
+            <div class="carousel">
+
+                <button id="previousButton" type="button"
+                    aria-label="Previous world">
+                    &#10094;
+                </button>
+
+                <div class="world-cards">
+
+                    <article class="world-card active">
+                        <h3>The Library of Us</h3>
+                        <p>Where our stories live.</p>
+                        <a href="library.html">Enter World</a>
+                    </article>
+
+                    <article class="world-card">
+                        <h3>The Nah-Verse</h3>
+                        <p>A world of questionable decisions.</p>
+                        <a href="nahverse.html">Enter World</a>
+                    </article>
+
+                    <article class="world-card">
+                        <h3>The Case Files</h3>
+                        <p>A mystery waiting to be solved.</p>
+                        <a href="casefiles.html">Enter World</a>
+                    </article>
+
+                    <article class="world-card">
+                        <h3>The Final Chapter</h3>
+                        <p>Some things deserve to be said properly.</p>
+                        <a href="letter.html">Enter World</a>
+                    </article>
+
+                </div>
+
+                <button id="nextButton" type="button"
+                    aria-label="Next world">
+                    &#10095;
+                </button>
+
+            </div>
+
+            <p class="starting-hint">
+                ♡ Your journey begins at The Library of Us.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- Connecting the JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
