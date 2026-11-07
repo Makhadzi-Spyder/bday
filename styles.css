@@ -85,7 +85,7 @@ button {
     gap: 20px;
 
     transform-origin: left center;
-    backface-visibility: hidden;
+    backface-visibility: visible;
     z-index: 2;
 
     transition: transform 1.2s ease-in-out;
@@ -145,6 +145,7 @@ button {
 /* Opening the front cover */
 .birthday-card.open .card-front {
     transform: rotateY(-180deg);
+    box-shadow: -10px 12px 25px rgba(89, 38, 59, 0.2);
 }
 
 /* Button inside the card */
